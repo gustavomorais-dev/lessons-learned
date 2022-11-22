@@ -1,12 +1,20 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: monospace, sans-serif, serif;
+    font-size: medium;
+    line-height: 20px;
+    text-align: justify;
 }
 
 #cabecalho {
     top: 0;
+    left: 0;
+    width: 100%;
     text-align: center;
-    background-color: green;
+    background-color: #1DB61E;
     position: fixed;
+    color: white;
+    font-family: monospace;
 }
 
 #picture_area {
@@ -16,11 +24,12 @@ body {
 
 #minha_foto {
     width: 200px;
+    border-radius: 50%;
 }
 
 .footer {
     position: fixed;
-    background-color: green;
+    background-color: #1DB61E;
     bottom: 0px;
     left: 0px;
     right: 0px;
@@ -32,6 +41,21 @@ body {
     color: white;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+main, aside {
     display: inline-block;
+}
+
+main{
+    width: 71%;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+aside {
+    position: absolute;
+    width: 18.5%;
+    margin-left: 1%;
+    right: 1%;
+    border: 2px solid black;
+    padding: 20px;
 }
