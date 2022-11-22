@@ -18,6 +18,17 @@ body {
     width: 200px;
 }
 
-main {
-    position:fixed;
+.footer {
+    position: fixed;
+    background-color: green;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
 }
+
+.footer p {
+    color: white;
+}
+
