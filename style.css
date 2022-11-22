@@ -58,3 +58,7 @@ aside {
     border: 2px solid black;
     padding: 20px;
 }
+
+h2 {
+    text-align: center;
+}
