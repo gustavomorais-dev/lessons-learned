@@ -15,6 +15,7 @@ body {
     position: fixed;
     color: white;
     font-family: monospace;
+    z-index: 1000;
 }
 
 #picture_area {
@@ -28,12 +29,10 @@ body {
 }
 
 .footer {
-    position: fixed;
+    padding: 1em;
+    margin-top: 2%;
+    height: auto;
     background-color: #1DB61E;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
     text-align: center;
 }
 
